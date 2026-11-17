@@ -1,5 +1,5 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>NyayaSetu</title>
+<title>Advonex</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@500;600;700&display=swap">
 <style>
@@ -246,7 +246,7 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding-block:24px;color
 
 <div id="root">
   <header class="top"><div class="wrap bar">
-    <a class="brand" href="#home"><span class="mark"><i data-lucide="scale"></i></span><span>NyayaSetu</span></a>
+    <a class="brand" href="#home"><span class="mark"><i data-lucide="scale"></i></span><span>Advonex</span></a>
     <nav id="nav" aria-label="Main"></nav>
     <div class="seg" role="group" aria-label="Demo role switcher">
       <button type="button" data-act="role" data-v="client" aria-pressed="true">View as Client</button>
@@ -254,7 +254,7 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding-block:24px;color
     </div>
   </div></header>
   <main id="view"></main>
-  <footer><div class="wrap">NyayaSetu is a demo build. Lawyer profiles, Bar Council IDs and case figures are fictional sample data. Laws are summarised in plain language for general information and are not legal advice; check the current bare Act or ask an advocate before you act.</div></footer>
+  <footer><div class="wrap">Advonex is a demo build. Lawyer profiles, Bar Council IDs and case figures are fictional sample data. Laws are summarised in plain language for general information and are not legal advice; check the current bare Act or ask an advocate before you act.</div></footer>
 </div>
 <div id="modal"></div>
 <div id="toast" class="toast hide" role="status"></div>
@@ -502,7 +502,7 @@ function makePdf(blocks,o){
   const deco=()=>{
     if(o.draft){d.setTextColor(222);d.setFont('helvetica','bold');d.setFontSize(70);d.text('DRAFT',105,155,{align:'center',angle:38})}
     d.setTextColor(110);d.setFont('helvetica','normal');d.setFontSize(8);
-    const ft=o.draft?'Draft generated on NyayaSetu. Not verified, not stamped. Demo only.':`E-STAMP (SIMULATED) | Cert ${o.cert} | Digitally signed by ${o.by} | Demo only, not legally valid`;
+    const ft=o.draft?'Draft generated on Advonex. Not verified, not stamped. Demo only.':`E-STAMP (SIMULATED) | Cert ${o.cert} | Digitally signed by ${o.by} | Demo only, not legally valid`;
     d.text(ft,105,288,{align:'center'});d.setTextColor(20);
   };
   const need=h=>{if(y+h>278){d.addPage();y=24;deco()}};
